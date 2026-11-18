@@ -1,0 +1,33 @@
+{
+    "responseData":  {
+                         "translatedText":  "ضع المؤشر على أي نص لقراءته بلغتك",
+                         "match":  0.85,
+                         "detectedLanguage":  "en"
+                     },
+    "quotaFinished":  false,
+    "mtLangSupported":  null,
+    "responseDetails":  "",
+    "responseStatus":  200,
+    "responderId":  null,
+    "exception_code":  null,
+    "matches":  [
+                    {
+                        "id":  0,
+                        "segment":  "Rest the pointer on any text to read it in your language",
+                        "translation":  "ضع المؤشر على أي نص لقراءته بلغتك",
+                        "source":  false,
+                        "target":  "ar-SA",
+                        "quality":  70,
+                        "reference":  "Machine Translation.",
+                        "usage-count":  2,
+                        "subject":  false,
+                        "created-by":  "MT!",
+                        "last-updated-by":  "MT!",
+                        "create-date":  "2026-11-17 14:55:42",
+                        "last-update-date":  "2026-11-17 14:55:42",
+                        "match":  0.85,
+                        "penalty":  null,
+                        "model":  "neural"
+                    }
+                ]
+}

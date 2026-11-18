@@ -1,0 +1,21 @@
+# Rust build output (local builds are several GB)
+/target/
+
+# Local environment and secrets
+.env
+.env.*
+*.env
+
+# Logs and local state
+*.log
+settings.json
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Debug screenshots captured by the scripts in shots/
+/shots/*.png

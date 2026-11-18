@@ -3,6 +3,14 @@
 A small Windows desktop app: rest the mouse pointer on any text, wait a
 moment, and the translation appears in a card next to the pointer.
 
+## Download
+
+Grab the latest Windows build from
+[Releases](https://github.com/didohm/hovertranslate/releases/latest) — download
+`hovertranslate-v0.1.0-windows-x64.zip`, unzip it and run `hovertranslate.exe`.
+It is a portable 64-bit Windows app (Windows 10 or newer); there is nothing to
+install. To build it yourself instead, see [Running it](#running-it).
+
 It is written in Rust with [egui](https://github.com/emilk/egui) (through
 `eframe`) and reads text with the Windows accessibility APIs (UI Automation).
 There is **no OCR**: only text that Windows itself exposes as accessible text
